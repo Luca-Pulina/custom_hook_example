@@ -4,7 +4,7 @@ import axios from 'axios'
 const API_KEY = process.env.REACT_APP_API_KEY
 
 const Random = () => {
-    const [tag, setTag] = useState('')
+    const [tag, setTag] = useState('dogs')
     const [gif, setGif] = useState('')
 
     const fetchGIF = async (tag) => {
